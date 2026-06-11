@@ -63,7 +63,7 @@
   {
    "fieldname": "visit_date_column",
    "fieldtype": "Column Break",
-   "label": "visit date"
+   "label": "visit date(when)"
   },
   {
    "fieldname": "visit_date",
@@ -73,7 +73,7 @@
   {
    "fieldname": "visit_time_section",
    "fieldtype": "Section Break",
-   "label": "visit time"
+   "label": "visit time(what time)"
   },
   {
    "fieldname": "visit_time",
@@ -83,7 +83,7 @@
   {
    "fieldname": "purpose_of_visit_section",
    "fieldtype": "Section Break",
-   "label": "purpose of visit"
+   "label": "purpose of visit(why)"
   },
   {
    "fieldname": "purpose_of_visit_column",
@@ -161,12 +161,12 @@
   {
    "fieldname": "duration_column",
    "fieldtype": "Column Break",
-   "label": "duration"
+   "label": "duration(dont stay too long)"
   },
   {
    "fieldname": "duration",
    "fieldtype": "Duration",
-   "label": "duration"
+   "label": "duration(dont stay too long)"
   },
   {
    "fieldname": "section_break_komh",
@@ -203,7 +203,7 @@
   {
    "fieldname": "pass_status_column",
    "fieldtype": "Column Break",
-   "label": "pass status"
+   "label": "pass statuss"
   },
   {
    "fieldname": "pass_status",
@@ -223,7 +223,7 @@
   {
    "fieldname": "visit_status",
    "fieldtype": "Select",
-   "label": "visit_status",
+   "label": "visit_status(get out)",
    "options": "checked in\nchecked out"
   },
   {
@@ -241,7 +241,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-06-11 03:55:27.231124",
+ "modified": "2026-06-11 17:07:18.999252",
  "modified_by": "nadashakersat@gmail.com",
  "module": "visitor management system",
  "name": "visit request",
