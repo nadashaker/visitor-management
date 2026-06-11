@@ -1,0 +1,259 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-06-06 01:25:20.697942",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "visitor_section",
+  "visitor_column",
+  "visitor_name",
+  "mobile_number_section",
+  "mobile_number_column",
+  "mobile_number",
+  "national_idiqama_section",
+  "national_id_column",
+  "national_id",
+  "email_section",
+  "email_column",
+  "email",
+  "company_section",
+  "company_column",
+  "company",
+  "visitor_photo_section",
+  "visitor_photo_column",
+  "visitor_photo",
+  "national_id_copy_section",
+  "national_id_copy_column",
+  "national_id_copy",
+  "gender_section",
+  "gender_column",
+  "gender",
+  "date_of_birth_section",
+  "date_of_birth_column",
+  "date_of_birth",
+  "notes_section",
+  "notes_column",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "visitor_section",
+   "fieldtype": "Section Break",
+   "label": "visitor"
+  },
+  {
+   "fieldname": "visitor_column",
+   "fieldtype": "Column Break",
+   "label": "visitor"
+  },
+  {
+   "fieldname": "visitor_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "visitor name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mobile_number_section",
+   "fieldtype": "Section Break",
+   "label": "mobile number"
+  },
+  {
+   "fieldname": "mobile_number_column",
+   "fieldtype": "Column Break",
+   "label": "mobile number"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "mobile_number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "national_idiqama_section",
+   "fieldtype": "Section Break",
+   "label": "national id/iqama"
+  },
+  {
+   "fieldname": "national_id_column",
+   "fieldtype": "Column Break",
+   "label": "national_id"
+  },
+  {
+   "fieldname": "national_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "national_id",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email_section",
+   "fieldtype": "Section Break",
+   "label": "email"
+  },
+  {
+   "fieldname": "email_column",
+   "fieldtype": "Column Break",
+   "label": "email"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "email"
+  },
+  {
+   "fieldname": "company_section",
+   "fieldtype": "Section Break",
+   "label": "company"
+  },
+  {
+   "fieldname": "company_column",
+   "fieldtype": "Column Break",
+   "label": "company"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "company"
+  },
+  {
+   "fieldname": "visitor_photo_section",
+   "fieldtype": "Section Break",
+   "label": "visitor photo"
+  },
+  {
+   "fieldname": "visitor_photo_column",
+   "fieldtype": "Column Break",
+   "label": "visitor_photo"
+  },
+  {
+   "fieldname": "visitor_photo",
+   "fieldtype": "Attach Image",
+   "label": "visitor_photo"
+  },
+  {
+   "fieldname": "national_id_copy_section",
+   "fieldtype": "Section Break",
+   "label": "national id copy"
+  },
+  {
+   "fieldname": "national_id_copy_column",
+   "fieldtype": "Column Break",
+   "label": "national_id_copy"
+  },
+  {
+   "fieldname": "national_id_copy",
+   "fieldtype": "Attach",
+   "label": "national_id_copy"
+  },
+  {
+   "fieldname": "gender_section",
+   "fieldtype": "Section Break",
+   "label": "gender"
+  },
+  {
+   "fieldname": "gender_column",
+   "fieldtype": "Column Break",
+   "label": "gender"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "gender",
+   "options": "male\nfemale"
+  },
+  {
+   "fieldname": "date_of_birth_section",
+   "fieldtype": "Section Break",
+   "label": "date of birth"
+  },
+  {
+   "fieldname": "date_of_birth_column",
+   "fieldtype": "Column Break",
+   "label": "date_of_birth"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "date_of_birth"
+  },
+  {
+   "fieldname": "notes_section",
+   "fieldtype": "Section Break",
+   "label": "notes"
+  },
+  {
+   "fieldname": "notes_column",
+   "fieldtype": "Column Break",
+   "label": "notes"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "notes"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-06-11 03:55:42.077349",
+ "modified_by": "nadashakersat@gmail.com",
+ "module": "visitor management system",
+ "name": "visitor",
+ "owner": "nadashakersat@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Receptionist",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "security officer",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "visitor manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
