@@ -40,12 +40,12 @@
   {
    "fieldname": "visitor_section",
    "fieldtype": "Section Break",
-   "label": "visitor"
+   "label": "Visitor"
   },
   {
    "fieldname": "visitor_column",
    "fieldtype": "Column Break",
-   "label": "visitor"
+   "label": "Visitor"
   },
   {
    "fieldname": "visitor_name",
@@ -57,7 +57,7 @@
   {
    "fieldname": "mobile_number_section",
    "fieldtype": "Section Break",
-   "label": "mobile number"
+   "label": "Mobile Number"
   },
   {
    "fieldname": "mobile_number_column",
@@ -79,7 +79,7 @@
   {
    "fieldname": "national_id_column",
    "fieldtype": "Column Break",
-   "label": "national_id"
+   "label": "ID / Iqama"
   },
   {
    "fieldname": "national_id",
@@ -96,7 +96,7 @@
   {
    "fieldname": "email_column",
    "fieldtype": "Column Break",
-   "label": "email"
+   "label": "Email"
   },
   {
    "fieldname": "email",
@@ -111,7 +111,7 @@
   {
    "fieldname": "company_column",
    "fieldtype": "Column Break",
-   "label": "company"
+   "label": "Company"
   },
   {
    "fieldname": "company",
@@ -126,7 +126,7 @@
   {
    "fieldname": "visitor_photo_column",
    "fieldtype": "Column Break",
-   "label": "visitor_photo"
+   "label": "Visitor Photo"
   },
   {
    "fieldname": "visitor_photo",
@@ -141,7 +141,7 @@
   {
    "fieldname": "national_id_copy_column",
    "fieldtype": "Column Break",
-   "label": "national_id_copy"
+   "label": "National Id Copy"
   },
   {
    "fieldname": "national_id_copy",
@@ -156,7 +156,7 @@
   {
    "fieldname": "gender_column",
    "fieldtype": "Column Break",
-   "label": "gender"
+   "label": "Gender"
   },
   {
    "fieldname": "gender",
@@ -172,7 +172,7 @@
   {
    "fieldname": "date_of_birth_column",
    "fieldtype": "Column Break",
-   "label": "date_of_birth"
+   "label": "Date Of Birth"
   },
   {
    "fieldname": "date_of_birth",
@@ -187,7 +187,7 @@
   {
    "fieldname": "notes_column",
    "fieldtype": "Column Break",
-   "label": "notes"
+   "label": "Notes"
   },
   {
    "fieldname": "notes",
@@ -198,7 +198,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-11 03:55:42.077349",
+ "modified": "2026-06-15 17:48:32.314997",
  "modified_by": "nadashakersat@gmail.com",
  "module": "visitor management system",
  "name": "visitor",

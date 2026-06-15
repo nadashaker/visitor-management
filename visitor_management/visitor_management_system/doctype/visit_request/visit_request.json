@@ -48,12 +48,12 @@
   {
    "fieldname": "visitor_column",
    "fieldtype": "Column Break",
-   "label": "visitor"
+   "label": "Visitor"
   },
   {
    "fieldname": "visitor",
    "fieldtype": "Link",
-   "label": "visitor",
+   "label": "Visitor",
    "options": "visitor"
   },
   {
@@ -63,7 +63,7 @@
   {
    "fieldname": "visit_date_column",
    "fieldtype": "Column Break",
-   "label": "visit date(when)"
+   "label": "Visit Date"
   },
   {
    "fieldname": "visit_date",
@@ -73,7 +73,7 @@
   {
    "fieldname": "visit_time_section",
    "fieldtype": "Section Break",
-   "label": "visit time(what time)"
+   "label": "Visit Time"
   },
   {
    "fieldname": "visit_time",
@@ -83,7 +83,7 @@
   {
    "fieldname": "purpose_of_visit_section",
    "fieldtype": "Section Break",
-   "label": "purpose of visit(why)"
+   "label": "Purpose Of Visit"
   },
   {
    "fieldname": "purpose_of_visit_column",
@@ -102,7 +102,7 @@
   {
    "fieldname": "department_column",
    "fieldtype": "Column Break",
-   "label": "department"
+   "label": "Department"
   },
   {
    "fieldname": "department",
@@ -118,7 +118,7 @@
   {
    "fieldname": "employee_to_visit_column",
    "fieldtype": "Column Break",
-   "label": "employee to visit"
+   "label": "Employee To Visit"
   },
   {
    "fieldname": "employee_to_visit",
@@ -133,7 +133,7 @@
   {
    "fieldname": "check_in_time_column",
    "fieldtype": "Column Break",
-   "label": "check in time"
+   "label": "Check In Time"
   },
   {
    "fieldname": "check_in_time",
@@ -147,7 +147,7 @@
   {
    "fieldname": "check_out_time_column",
    "fieldtype": "Column Break",
-   "label": "check out time"
+   "label": "Check Out Time"
   },
   {
    "fieldname": "check_out_time",
@@ -161,7 +161,7 @@
   {
    "fieldname": "duration_column",
    "fieldtype": "Column Break",
-   "label": "duration(dont stay too long)"
+   "label": "Duration"
   },
   {
    "fieldname": "duration",
@@ -175,7 +175,7 @@
   {
    "fieldname": "pass_number_column",
    "fieldtype": "Column Break",
-   "label": "pass number"
+   "label": "PASS NO."
   },
   {
    "fieldname": "pass_number",
@@ -189,7 +189,7 @@
   {
    "fieldname": "qr_code_column",
    "fieldtype": "Column Break",
-   "label": "QR code"
+   "label": "QR Code"
   },
   {
    "fieldname": "qr_code",
@@ -203,7 +203,7 @@
   {
    "fieldname": "pass_status_column",
    "fieldtype": "Column Break",
-   "label": "pass statuss"
+   "label": "Pass Status"
   },
   {
    "fieldname": "pass_status",
@@ -218,7 +218,7 @@
   {
    "fieldname": "visit_status_column",
    "fieldtype": "Column Break",
-   "label": "visit status"
+   "label": "Visit Status"
   },
   {
    "fieldname": "visit_status",
@@ -241,7 +241,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-06-11 17:07:18.999252",
+ "modified": "2026-06-15 17:45:18.656398",
  "modified_by": "nadashakersat@gmail.com",
  "module": "visitor management system",
  "name": "visit request",
