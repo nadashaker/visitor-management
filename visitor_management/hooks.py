@@ -77,7 +77,13 @@ app_license = "mit"
 # jinja = {
 # 	"methods": "visitor_management.utils.jinja_methods",
 # 	"filters": "visitor_management.utils.jinja_filters"
-# }
+# Jinja
+# ----------
+#}
+# add methods and filters to jinja environment
+
+
+
 
 # Installation
 # ------------
@@ -246,4 +252,3 @@ app_license = "mit"
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
-

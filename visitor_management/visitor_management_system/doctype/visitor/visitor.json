@@ -40,18 +40,18 @@
   {
    "fieldname": "visitor_section",
    "fieldtype": "Section Break",
-   "label": "Visitor"
+   "label": "Visitor Name"
   },
   {
    "fieldname": "visitor_column",
    "fieldtype": "Column Break",
-   "label": "Visitor"
+   "label": "Visitor Name"
   },
   {
    "fieldname": "visitor_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "visitor name",
+   "label": "visitor_name",
    "reqd": 1
   },
   {
@@ -198,7 +198,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-15 17:48:32.314997",
+ "modified": "2026-06-15 19:33:41.786033",
  "modified_by": "nadashakersat@gmail.com",
  "module": "visitor management system",
  "name": "visitor",
