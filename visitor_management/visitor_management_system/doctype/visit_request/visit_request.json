@@ -7,6 +7,21 @@
  "field_order": [
   "visitor_column",
   "visitor",
+  "section_break_nzlt",
+  "visitorname_column",
+  "visitorname",
+  "section_break_assu",
+  "visitormobile_column",
+  "visitormobile",
+  "section_break_qois",
+  "visitorid_column",
+  "visitorid",
+  "section_break_tbhu",
+  "visitorcompany_column",
+  "visitorcompany",
+  "section_break_mytz",
+  "visitorphoto_column",
+  "visitorphoto",
   "section_break_icse",
   "visit_date_column",
   "visit_date",
@@ -48,12 +63,12 @@
   {
    "fieldname": "visitor_column",
    "fieldtype": "Column Break",
-   "label": "visitor"
+   "label": "Visitor"
   },
   {
    "fieldname": "visitor",
    "fieldtype": "Link",
-   "label": "visitor",
+   "label": "Visitor",
    "options": "visitor"
   },
   {
@@ -63,7 +78,7 @@
   {
    "fieldname": "visit_date_column",
    "fieldtype": "Column Break",
-   "label": "visit date"
+   "label": "Visit Date"
   },
   {
    "fieldname": "visit_date",
@@ -73,7 +88,7 @@
   {
    "fieldname": "visit_time_section",
    "fieldtype": "Section Break",
-   "label": "visit time"
+   "label": "Visit Time"
   },
   {
    "fieldname": "visit_time",
@@ -83,7 +98,7 @@
   {
    "fieldname": "purpose_of_visit_section",
    "fieldtype": "Section Break",
-   "label": "purpose of visit"
+   "label": "Purpose Of Visit"
   },
   {
    "fieldname": "purpose_of_visit_column",
@@ -102,7 +117,7 @@
   {
    "fieldname": "department_column",
    "fieldtype": "Column Break",
-   "label": "department"
+   "label": "Department"
   },
   {
    "fieldname": "department",
@@ -118,7 +133,7 @@
   {
    "fieldname": "employee_to_visit_column",
    "fieldtype": "Column Break",
-   "label": "employee to visit"
+   "label": "Employee To Visit"
   },
   {
    "fieldname": "employee_to_visit",
@@ -133,7 +148,7 @@
   {
    "fieldname": "check_in_time_column",
    "fieldtype": "Column Break",
-   "label": "check in time"
+   "label": "Check In Time"
   },
   {
    "fieldname": "check_in_time",
@@ -147,7 +162,7 @@
   {
    "fieldname": "check_out_time_column",
    "fieldtype": "Column Break",
-   "label": "check out time"
+   "label": "Check Out Time"
   },
   {
    "fieldname": "check_out_time",
@@ -161,7 +176,7 @@
   {
    "fieldname": "duration_column",
    "fieldtype": "Column Break",
-   "label": "duration"
+   "label": "Duration"
   },
   {
    "fieldname": "duration",
@@ -175,7 +190,7 @@
   {
    "fieldname": "pass_number_column",
    "fieldtype": "Column Break",
-   "label": "pass number"
+   "label": "PASS NO."
   },
   {
    "fieldname": "pass_number",
@@ -189,12 +204,7 @@
   {
    "fieldname": "qr_code_column",
    "fieldtype": "Column Break",
-   "label": "QR code"
-  },
-  {
-   "fieldname": "qr_code",
-   "fieldtype": "Attach Image",
-   "label": "qr_code"
+   "label": "QR Code"
   },
   {
    "fieldname": "section_break_phmb",
@@ -203,7 +213,7 @@
   {
    "fieldname": "pass_status_column",
    "fieldtype": "Column Break",
-   "label": "pass status"
+   "label": "Pass Status"
   },
   {
    "fieldname": "pass_status",
@@ -218,13 +228,88 @@
   {
    "fieldname": "visit_status_column",
    "fieldtype": "Column Break",
-   "label": "visit status"
+   "label": "Visit Status"
   },
   {
    "fieldname": "visit_status",
    "fieldtype": "Select",
    "label": "visit_status",
    "options": "checked in\nchecked out"
+  },
+  {
+   "fieldname": "section_break_nzlt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "visitor.visitor_name",
+   "fieldname": "visitorname",
+   "fieldtype": "Read Only",
+   "label": "visitor_name"
+  },
+  {
+   "fieldname": "section_break_assu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "visitor.mobile_number",
+   "fieldname": "visitormobile",
+   "fieldtype": "Read Only",
+   "label": "visitor_mobile"
+  },
+  {
+   "fieldname": "section_break_qois",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "visitor.national_id",
+   "fieldname": "visitorid",
+   "fieldtype": "Read Only",
+   "label": "visitor_ID"
+  },
+  {
+   "fieldname": "section_break_tbhu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "visitor.company",
+   "fieldname": "visitorcompany",
+   "fieldtype": "Read Only",
+   "label": "visitor_company"
+  },
+  {
+   "fieldname": "visitorname_column",
+   "fieldtype": "Column Break",
+   "label": "visitor_name"
+  },
+  {
+   "fieldname": "visitormobile_column",
+   "fieldtype": "Column Break",
+   "label": "visitor_mobile"
+  },
+  {
+   "fieldname": "visitorid_column",
+   "fieldtype": "Column Break",
+   "label": "visitor_ID"
+  },
+  {
+   "fieldname": "visitorcompany_column",
+   "fieldtype": "Column Break",
+   "label": "visitor_company"
+  },
+  {
+   "fieldname": "section_break_mytz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "visitorphoto_column",
+   "fieldtype": "Column Break",
+   "label": "visitor_photo"
+  },
+  {
+   "fetch_from": "visitor.visitor_photo",
+   "fieldname": "visitorphoto",
+   "fieldtype": "Read Only",
+   "label": "visitor_photo"
   },
   {
    "fieldname": "amended_from",
@@ -235,13 +320,18 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "fieldname": "qr_code",
+   "fieldtype": "Long Text",
+   "label": "QR Code"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-06-11 03:55:27.231124",
+ "modified": "2026-06-24 18:43:38.811429",
  "modified_by": "nadashakersat@gmail.com",
  "module": "visitor management system",
  "name": "visit request",
