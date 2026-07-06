@@ -1,0 +1,29 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [],
+ "creation": "2026-06-27 03:53:37.386114",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{}",
+ "letter_head": null,
+ "modified": "2026-06-27 04:02:05.578143",
+ "modified_by": "Administrator",
+ "module": "visitor management system",
+ "name": "Today's Bookings",
+ "owner": "nadashakersat@gmail.com",
+ "prepared_report": 0,
+ "ref_doctype": "Room Booking",
+ "report_name": "Today's Bookings",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "timeout": 0
+}
